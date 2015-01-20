@@ -10,7 +10,7 @@ Wykorzystanie zasobów komputera (dla obu zadań podobne)
 
 ** Dla importu oraz parsowania **
 
-**| ram | dysk |proc.|**  
+**| ram | dysk |proc|**  
 **|:------|--------|------:|**  
 **| 94 % | 100% |22%|**    
 
