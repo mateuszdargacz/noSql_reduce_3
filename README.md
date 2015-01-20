@@ -5,7 +5,9 @@
 	- Dysk twardy Samsung 840 PRO   
 	- System Arch linux (manjaro)   
 
-Wykorzystanie zasobów komputera (dla obu zadań podobne)
+Wykorzystanie zasobów komputera (dla obu zadań podobne)   
+
+
 ** Dla importu oraz parsowania **
 
 **| ram | dysk |proc.|**  
