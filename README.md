@@ -4,6 +4,12 @@
 	- Ram 8GB DDR3 1300    
 	- Dysk twardy Samsung 840 PRO   
 	- System Arch linux (manjaro)   
+
+** Wykorzystanie zasobów komputera (dla obu zadań podobne)**
+| ram  | dysk | procesor |
+|------|------|----------|
+| 94 % | 100% |   22%    |
+
 #Zadanie 3a:
 > - Przygotować funkcje map i reduce, które:
 > - wyszukają wszystkie anagramy w pliku word_list.txt 
@@ -172,8 +178,3 @@ db['reduced.out'].find().sort({value:-1}).limit(10);
 }
 
 ```
-
-** Wykorzystanie zasobów komputera (dla obu zadań podobne)**
-| ram  | dysk | procesor |
-|------|------|----------|
-| 94 % | 100% |   22%    |
