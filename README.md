@@ -10,8 +10,9 @@ Wykorzystanie zasobów komputera (dla obu zadań podobne)
 
 **| ram | dysk |proc.|**  
 **|:------|--------|------:|**  
-**| 94 % | 100% |22%|**   
-** Dla operacji anagramów oraz mapreduce, niewiele się różniły **
+**| 94 % | 100% |22%|**    
+
+** Dla operacji anagramów oraz mapreduce, niewiele się różniły **  
 **| ram | dysk |proc.|**  
 **|:------|--------|------:|**  
 **| 94 % | 100% |ok 40%|**   
