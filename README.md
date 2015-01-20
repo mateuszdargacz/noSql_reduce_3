@@ -1,13 +1,17 @@
-Rozwiązania zadań na egzamin:
--------------
- **Zadanie 3a:**
+#Rozwiązania zadań na egzamin:
+#Sprzęt:
+    - Procesor Pentium I7    
+	- Ram 8GB DDR3 1300    
+	- Dysk twardy Samsung 840 PRO   
+	- System Arch linux (manjaro)   
+#Zadanie 3a:
 > - Przygotować funkcje map i reduce, które:
 > - wyszukają wszystkie anagramy w pliku word_list.txt 
 
 Import pliku csv:
 
 ```js
-mongoimport -c words -d nosql--file words_list.csv --type csv --headerline
+mongoimport -c words -d nosql --type csv --headerline --file words_list.csv
 ```
 Czas importu był znikomy - poniżej kilku sekund.
 
@@ -105,22 +109,21 @@ db['anagrams.txt'].find({value:{$type:2}}).sort({id:-1})
 
 
 
- **Zadanie 3b:**
+#Zadanie 3b:
 Przerobienie pliku wejściowego na odpowiedni format.
 kod [toXml.js](https://github.com/mateuszdargacz/noSql_reduce_3/blob/master/toXml.js)
-czas wykonania około to ~23min
+czas wykonania około to około 26min
 
 Import danych
  ```js
 	mongoimport -c wiki -d nosql --file --type json  --jsonArray  data.json  
  ```
-Czas importu : ~10min
+Czas importu : około 8min
 
-kod  mapreduce [mapReduce.js](https://github.com/jcimoch/noSQL-Egzamin/blob/master/mapReduce.js)
-czas wykonania około 51 minut!
+kod  mapreduce [mapReduce.js](https://github.com/mateuszdargacz/noSql_reduce_3/blob/master/mapReduce.js)
+czas wykonania to około 74 minuty!
 
-wykorzystanie pamięci ram unosiło się do poziomu 94 % (z 8gb),  dysk oczywiście na poziomie 100% a 
-procesor nie brał udziału w zabawie.
+
 
 ```js
 {
@@ -169,3 +172,8 @@ db['reduced.out'].find().sort({value:-1}).limit(10);
 }
 
 ```
+
+** Wykorzystanie zasobów komputera (dla obu zadań podobne)**
+| ram  | dysk | procesor |
+|------|------|----------|
+| 94 % | 100% |   22%    |
