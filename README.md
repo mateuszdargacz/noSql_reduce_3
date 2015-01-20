@@ -15,9 +15,9 @@ Wykorzystanie zasobów komputera (dla obu zadań podobne)
 **| 94 % | 100% |22%|**    
 
 ** Dla operacji anagramów oraz mapreduce, niewiele się różniły **  
-**| ram | dysk |proc.|**  
-**|:------|--------|------:|**  
-**| 94 % | 100% |ok 40%|**   
+**| ram | dysk |procesor|**  
+**|:------|--------|------------:|**  
+**| 94 % | 100% |ok 40% |**   
 #Zadanie 3a:
 > - Przygotować funkcje map i reduce, które:
 > - wyszukają wszystkie anagramy w pliku word_list.txt 
