@@ -5,11 +5,12 @@
 	- Dysk twardy Samsung 840 PRO   
 	- System Arch linux (manjaro)   
 
-** Wykorzystanie zasobów komputera (dla obu zadań podobne)**
-| ram  | dysk | procesor |
-|------|------|----------|
-| 94 % | 100% |   22%    |
-
+Wykorzystanie zasobów komputera (dla obu zadań podobne)
+** Dla importu oraz parsowania **
+--------------------------
+**| ram | dysk |proc.|**  
+**|:------|--------|------:|**  
+**| 94 % | 100% |22%|**   
 #Zadanie 3a:
 > - Przygotować funkcje map i reduce, które:
 > - wyszukają wszystkie anagramy w pliku word_list.txt 
@@ -21,6 +22,7 @@ mongoimport -c words -d nosql --type csv --headerline --file words_list.csv
 ```
 Czas importu był znikomy - poniżej kilku sekund.
 
+Znajdywanie anagramów  
 kod [Anagrams.js](https://github.com/mateuszdargacz/noSql_reduce_3/blob/master/anagrams.js)
 
 ```js
